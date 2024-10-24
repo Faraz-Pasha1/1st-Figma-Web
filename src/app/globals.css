@@ -1,0 +1,464 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* for Header */
+
+body{
+  background-color: #FFFFFF
+}
+
+.header {
+  margin-top:20px;
+  margin-left:-60px;
+  margin-right: 70px;
+  display: flex;
+  height: 50px;
+  /* background-color: #FFFFFF; */
+  width:1400px;
+  height:102;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.header-Options{
+    display: flex;
+    gap: 70px;
+    font-size: 12px;
+    margin-left: 400px;
+    color:#333333;
+    padding: 10px;
+    
+  }
+
+li:hover {
+    content: "";
+    width: 100%;
+    background-color: black;
+    height: 2px;
+    transition: 0.5s; 
+   
+  }
+ 
+
+  /* Section  */
+
+.firstWord {
+    margin-top:250px;
+    margin-left:138px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 64px;
+    color: grey;
+  }
+
+.secondWord {
+    margin-top: -40px;
+    margin-left:138px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    color: rgb(43, 43, 43);
+    font-weight: bold;
+  }
+
+.serialNum {
+    font-size: 24px;
+    color: #BDBDBD;
+    margin-left: 185px;
+    margin-top: 70px;
+    word-spacing: 15px;
+  }
+
+.sectionImage{
+ margin-left:600px;
+ margin-top: -600px;
+ position:relative;
+ }
+
+ .logoImage{
+  border: 1px solid black;
+  margin-left:200px;
+ }
+
+ /* FOR 1ST BODY ARROW BUTTON */
+
+.arrow-button1 {
+  position: relative;
+  width: 50px;
+  height:50px;
+  border: 1px solid #F9F9F9;
+  margin-left: 180px;
+  margin-top: 80px;
+}
+
+ .arrow-button2 {
+  position: relative;
+  width: 50px;
+  height:50px;
+  border: 1px #F9F9F9;
+  background-color: #F9F9F9;
+  margin-left: 10px;
+  margin-top: 80px;
+ }
+
+ .arrowOnly1{
+  font-size:20px;
+ }
+ .arrowOnly2{
+  font-size:20px;
+ }
+
+ .mainLine {
+  border:1px solid #F2F2F2;
+  width:320px;
+  margin-left: 280px;
+  margin-top: -25px;
+ }
+
+ /* ABOUT SECTION OF MAIN BODY */
+
+ .bigContainer {
+  width: 1130px;
+  height:470px;
+  margin-left: 138px;
+ }
+
+ .inBigContainer{
+  background-color: #FBFBFB;
+  width: 1130px;
+  height:440px;
+ }
+
+ .imageContainer1 {
+  padding-top: 30px;
+  margin-left: 90px;
+ }
+ .imageContainer2{
+  margin-top: -210px;
+  margin-left: 385px;
+ }
+ .imageContainer3{
+  margin-top: -105px;
+  margin-left: 90px;
+ }
+
+ .textContainer {
+  width: 400px;
+  height: 300px;
+  margin-left:680px;
+  margin-top:-440px;
+ }
+ .about{
+  font-size:64px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(206, 206, 206);
+ }
+ .aboutDescription {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+
+.readMore-button {
+  position: relative;
+  width: 220px;
+  height:70px;
+  background-color: #FFFFFF;
+  margin-top: 70px;
+  color:#333333
+}
+
+/* MISSION OF MAIN BODY SECTION */
+
+.missionText {
+  font-size:64px;
+  color:rgb(206, 206, 206);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.number1Mission {
+  width:295px;
+  height:144px;
+  font-size: 26px;
+  font-family: roboto;
+  color:grey;
+  margin-left:100px;
+  margin-top:-150px;
+}
+
+.Mnumber2 {
+  margin-left: 550px;
+  margin-top:-140px;
+}
+.number2Mission {
+  width:440px;
+  height:144px;
+  font-size: 26px;
+  font-family: roboto;
+  color:grey;
+  margin-left:690px;
+  margin-top:-150px;
+}
+
+/* PROJECT OF MAIN SECTION */
+
+.projectContainerMain {
+  
+  width : 1130px;
+  height : 760px;
+}
+
+.ourProjectsText {
+  font-size: 64px;
+  color:rgb(206, 206, 206);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.projectImage1{
+  width:540px;
+  
+}
+.projectImage1of1 {
+  margin-top: -240px;
+  opacity:80%;
+  width:540px;
+}
+.projectImage2{
+  margin-left: 587px;
+  margin-top:-240px;
+  width:540px;
+}
+.projectImage3{
+  margin-top:30px;
+  width:261px;
+}
+.projectImage4{
+  margin-left: 285px;
+  margin-top:-246px;
+  width:450px;
+}
+.projectImage5{
+  margin-left: 767px;
+  margin-top:-245px;
+  width:357px;
+}
+
+.sampleProjectTitle {
+  width:233px;
+  height: 160px;
+  margin-top:-520px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.sampleProject {
+  color:white;
+  font-size: 64px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold; 
+}
+.viewMore{
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.allProjects {
+  position: relative;
+  width: 220px;
+  height:70px;
+  background-color: #585858;
+  margin-top: 400px;
+  margin-left: 905px;
+  color:#FFFFFF
+}
+
+/* CONTACT US SECTION */
+
+.contactUsContainer {
+  width : 1125px;
+  height: 580px;
+  
+}
+.contactUs {
+  font-size: 64px;
+  color: rgb(206, 206, 206);
+ }
+
+
+ .inputFields{
+  width : 395px;
+  height : 495px;
+ 
+ }
+#nameBox {
+  width: 391px;
+  height : 46px;
+  background-color: #F3F3F3;
+  padding:20px;
+  gap:5px;
+  margin-top:10px;
+}
+
+#textBox{
+  width: 391px;
+  height : 130px;
+  background-color: #F3F3F3;
+  padding:20px;
+  margin-top:10px;
+}
+.contactImage{
+  margin-left: 400px;
+  margin-top:-487px;
+  width:720px;
+}
+
+.emailButton{
+  position: relative;
+  width: 220px;
+  height:70px;
+  background-color: #585858;
+  color:#FFFFFF
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #2C2C2C;
+  margin-top:1900px;
+  height: 417px;
+  width:1440px;
+}
+
+.footerLogo{
+ margin-left:20px;
+  padding:80px;
+  
+}
+.footerInfoContainer {
+  width :200px;
+  height : 300px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight:medium;
+  margin-left: 350px;
+  margin-top:-185px;
+}
+
+.footerOptions1 {
+  margin-top : 10px;
+  gap:20px;
+  display: grid;
+}
+
+.contactFooter {
+  width :200px;
+  height : 300px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight:medium;
+  margin-left: 590px;
+  margin-top:-300px;
+}
+.address {
+  margin-left:30px ;
+  margin-top:-20px;
+  width:150px;
+  height:100px;
+}
+.call {
+  margin-top:-50px;
+}
+.contactNumber {
+  margin-left:30px ;
+  margin-top:-20px;
+  width:150px;
+  height:100px;
+}
+
+.emailText {
+  margin-left:30px ;
+  margin-top:-20px;
+  width:150px;
+  height:100px;
+}
+.socialMediaContainer {
+  width :150px;
+  height : 100px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight:medium;
+  margin-left: 1000px;
+  margin-top:-300px;
+}
+.socialMediaImages {
+  display: flex;
+  gap:40px;
+}
+
+.line {
+  width:1440px;
+  
+  border : 1px solid #D8D8D8;
+  opacity : 10%;
+  margin-top:180px;
+}
+.footerEnd {
+  color:#C8C8C8 ;
+  text-align: center;
+ 
+}
+
+@media (min-width :475px) {
+  body{
+    width: 100%;
+  } 
+  .header {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .mainSection {
+    width: 100%;
+  }
+}
+
+@media (min-width :600px) {
+  body{
+    width: 100%;
+  } 
+  .header {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .mainSection {
+    width: 100%;
+  }
+}
+@media (min-width :900px) {
+  body{
+    width: 100%;
+  } 
+  .header {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .mainSection {
+    width: 100%;
+  }
+}
+@media (max-width :250px) {
+  body{
+    width: 100%;
+  } 
+  .header {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .mainSection {
+    width: 100%;
+  }
+}
